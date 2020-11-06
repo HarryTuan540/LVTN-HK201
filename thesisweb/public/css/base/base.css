@@ -1,0 +1,112 @@
+@media screen and (max-width: 1200px) {
+  #step {
+    display: none;
+  }
+  #animate {
+	display: none;  
+  }
+  .procedure-view{
+	height: 250px !important;  
+  }
+}
+#animate {
+    position: relative;
+    width: 10%;
+}
+#animate-description {
+    position: relative;
+    border: 1px solid green;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+}
+.pn-circle {
+    width: 68px;
+    height: 68px;
+    border: 3px solid #000;
+    text-align: center;
+    color: #000;
+    float: left;
+    padding-top: 5px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+.pn-line {
+    float: left;
+    margin-top: 35px;
+    height: 3px;
+    background: #000;
+    width: 210px;
+}
+.pn-line-end {
+    float: left;
+    margin-top: 35px;
+    height: 3px;
+    background: #000;
+    width: 200px;
+}
+#step .active {
+	background: #7ab561;
+    color: #fff;
+}
+.procedure-view {
+    height: 500px;
+    background: url("/images/procedure-view.png") no-repeat center bottom #caebee;
+}
+.procedure-road {
+    background: url("/images/procedure-road.jpg") repeat-x center;
+    height: 14px;
+}
+.procedure-road-bike {
+    background: url("/images/delivery-truck_.png") no-repeat;
+	background-size: 120px 120px;
+    width: 150px;
+    height: 94px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    margin-left: -41px;
+}
+div.account-login:hover {
+	background: #d0b21e;
+	color: white;
+	font-weight:bold;
+	border-radius: 50px 50px;
+}
+
+.container {
+  padding: 2rem 0rem;
+}
+ 
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 400px;
+  }
+  .modal-dialog .modal-content {
+    padding: 1rem;
+  }
+}
+.modal-header .close {
+  margin-top: -1.5rem;
+}
+ 
+.form-title {
+  margin: -2rem 0rem 2rem;
+}
+ 
+.btn-round {
+  border-radius: 3rem;
+}
+ 
+.delimiter {
+  padding: 1rem;
+}
+ 
+.social-buttons .btn {
+  margin: 0 0.5rem 1rem;
+}
+ 
+.signup-section {
+  padding: 0.3rem 0rem;
+}
